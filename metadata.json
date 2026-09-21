@@ -1,0 +1,6 @@
+{
+  "name": "My Daily Plan",
+  "description": "A simple, clean, fast Daily Work Management web app based on a physical whiteboard daily-planning system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

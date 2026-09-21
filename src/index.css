@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-marker {
+    font-family: 'Kalam', cursive, sans-serif;
+  }
+  .font-handwriting {
+    font-family: 'Caveat', cursive, sans-serif;
+  }
+  .font-mono-code {
+    font-family: 'Space Mono', monospace;
+  }
+}
+
+/* Whiteboard glossy feel & smooth lines */
+.whiteboard-surface {
+  background-color: #ffffff;
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(240, 246, 255, 0.4) 0%, rgba(255, 255, 255, 0) 70%),
+    linear-gradient(to bottom, #ffffff, #fafaf9);
+}
+
+.whiteboard-frame {
+  box-shadow: 
+    0 1px 3px rgba(0, 0, 0, 0.05),
+    0 8px 24px -4px rgba(15, 23, 42, 0.06),
+    0 0 0 1px rgba(226, 232, 240, 0.85);
+}
+
+.whiteboard-marker-blue {
+  color: #1d4ed8;
+}
+
+.whiteboard-marker-black {
+  color: #1c1917;
+}
+
+.whiteboard-marker-red {
+  color: #dc2626;
+}
+
+.whiteboard-marker-green {
+  color: #16a34a;
+}
+
